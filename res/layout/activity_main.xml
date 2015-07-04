@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- first frame -->
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/index_background">
+        <!-- top bar -->
+        <include layout="@layout/title_bar"/>
+        <!-- player -->
+
+        <include layout="@layout/player_layout" />
+        <!-- wordFream -->
+
+        <include layout="@layout/name_select" />
+
+
+    </LinearLayout>
+    <!-- 浮动按钮布局 -->
+    <include layout="@layout/layout_float" />
+    <!-- 过关界面 -->
+	<include layout="@layout/pass_layout" />
+
+  
+</FrameLayout>

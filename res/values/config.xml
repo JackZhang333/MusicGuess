@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="pay_delete">30</integer>
+    <integer name="pay_answer_tip">90</integer>
+    <integer name="game_round">1</integer>
+</resources>
